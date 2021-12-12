@@ -1,1 +1,1 @@
-# Palitronica-TaxCalculator
+# Palitronica coding challenge - TaxCalculator
