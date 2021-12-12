@@ -6,7 +6,7 @@ import net.challenge.vo.CustomerVO;
 
 /**
  * <p>
- *  Mapper 接口
+ *  Mapper interface
  * </p>
  *
  * @author Peiran Liu

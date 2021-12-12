@@ -8,7 +8,7 @@ import net.challenge.vo.ItemsVO;
 
 /**
  * <p>
- *  服务类
+ *  service interface
  * </p>
  *
  * @author Peiran Liu

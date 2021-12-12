@@ -6,12 +6,12 @@ import java.util.regex.Pattern;
 public class CheckUtil {
 
     /**
-     * 邮箱正则
+     * email
      */
     private static final Pattern MAIL_PATTERN = Pattern.compile("^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$");
 
     /**
-     * 手机号正则，暂时未用
+     * phone
      */
     private static final Pattern PHONE_PATTERN = Pattern.compile("^((13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$");
 
@@ -28,7 +28,7 @@ public class CheckUtil {
     }
 
     /**
-     * 暂时未用
+     * not used for now
      * @param phone
      */
     public static boolean isPhone(String phone) {

@@ -17,7 +17,7 @@ public class CommonUtil {
 
 
   /**
-   * 获取ip
+   * get ip
    */
   public static String getIpAddr(HttpServletRequest request) {
     String ipAddress = null;
@@ -75,7 +75,7 @@ public class CommonUtil {
   }
 
   /**
-   * 获取验证码随机数
+   * random
    *
    * @param length
    * @return String
@@ -92,7 +92,7 @@ public class CommonUtil {
   }
 
   /**
-   * 获取当前时间戳
+   * get current timestamp
    *
    * @return
    */
@@ -102,7 +102,7 @@ public class CommonUtil {
   }
 
   /**
-   * UUID 生成
+   * UUID
    *
    * @return
    */
@@ -111,7 +111,7 @@ public class CommonUtil {
   }
 
   /**
-   * 获取随机长度串
+   * random string
    *
    * @param i
    * @return
@@ -129,7 +129,7 @@ public class CommonUtil {
   }
 
   /**
-   * 相应JSON 数据给前端
+   * json return
    *
    * @param response
    * @param obj

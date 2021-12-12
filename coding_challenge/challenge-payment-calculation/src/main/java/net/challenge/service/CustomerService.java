@@ -7,7 +7,7 @@ import net.challenge.vo.CustomerVO;
 
 /**
  * <p>
- *  服务类
+ *  service interface
  * </p>
  *
  * @author Peiran Liu

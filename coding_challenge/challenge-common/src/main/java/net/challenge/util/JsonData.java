@@ -13,21 +13,21 @@ import net.challenge.enums.BizCodeEnum;
 public class JsonData {
 
   /**
-   * 状态码 0 表示成功，1表示处理中，-1表示失败
+   *  0 success，1 in progress，-1 failed
    */
 
   private Integer code;
   /**
-   * 数据
+   * data
    */
   private Object data;
   /**
-   * 描述
+   * description
    */
   private String msg;
 
   /**
-   * 获取远程调用数据，注意事项，支持多单词下划线转驼峰（序列化和反序列化）
+   * RPC data and camel transformation
    * @param typeReference
    * @param <T>
    * @return
@@ -37,7 +37,7 @@ public class JsonData {
   }
 
   /**
-   * 成功，不传入数据
+   * success without data
    *
    * @return
    */
@@ -46,7 +46,7 @@ public class JsonData {
   }
 
   /**
-   * 成功，传入数据
+   * get data in party
    *
    * @param data
    * @return
@@ -56,7 +56,7 @@ public class JsonData {
   }
 
   /**
-   * 失败，传入描述信息
+   * description
    *
    * @param msg
    * @return
@@ -67,7 +67,7 @@ public class JsonData {
 
 
   /**
-   * 自定义状态码和错误信息
+   * custome data
    *
    * @param code
    * @param msg
@@ -78,7 +78,7 @@ public class JsonData {
   }
 
   /**
-   * 传入枚举，返回信息
+   * giv enum
    *
    * @param codeEnum
    * @return
