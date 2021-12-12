@@ -4,7 +4,7 @@
 | Front-end  | ReactJs  |
 | Back-end | SpringBoot |
 | Database  | Mysql |
-| ORM  | MyBatis |
+| ORM  | MyBatis ||
 
 For start the application, please use your terminal go the the source folder of git and run the command
 ```
