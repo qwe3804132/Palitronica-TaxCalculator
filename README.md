@@ -1,6 +1,6 @@
 ![](https://github.com/qwe3804132/Palitronica-TaxCalculator/blob/main/md/tag.png?raw=true)
 # Palitronica coding challenge - TaxCalculator
-### 1. Setup and running the application
+### 1. Setup the application
 For start the application, please use your terminal go the the source folder of git and run the command
 ```
 docker-compose up
@@ -19,4 +19,16 @@ After finish the step 1, you are supposed to access the front-end application by
 ```
 http://localhost:9090/
 ```
+Home Page
+![](https://github.com/qwe3804132/Palitronica-TaxCalculator/blob/main/md/HomePage.png?raw=true)
+
+Tax Calculator
+![](https://github.com/qwe3804132/Palitronica-TaxCalculator/blob/main/md/CalculationPage.png?raw=true)
+</br>
+### 3. Data and Testing
+The Postman Collection Json file has been attached in the git source folder
+`Coding Challenge.postman_collection.json
+`
+Just be aware if you are going to run the application by Intellij or eclipse during the testing, please modify the port of the in postman accordingly. The swaggerIO has also been configured in the class file SwaggerConfiguration.java
+
 
