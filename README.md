@@ -39,4 +39,9 @@ The Postman Collection Json file has been attached in the git source folder
 
 Just be aware if you are going to run the application by Intellij or eclipse during the testing, please modify the port of the in postman accordingly. The swaggerIO has also been configured in the class file SwaggerConfiguration.java
 
+Api Protocol Codes
+>   CUSTOMER_NOT_EXIST(110005,"Customer Not Exist"),
+  NO_ITEMS_EXIST(110006,"No items exist"),
+  CART_FAIL(220001, "No delievery items selected"),
+  CODE_TO_ERROR(240001, "API error");
 
